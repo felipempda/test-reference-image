@@ -1,8 +1,8 @@
 - deployment:
-     image: felipempda/lza-config-validator:v1.4.2
+     image: felipempda/lza-config-validator:v1.4.5
      json: | 
         "properties" : {
-        "image" : "${module.repositories_repository_url["lza-config-validator"]}:v1.4.2",
+        "image" : "${module.repositories_repository_url["lza-config-validator"]}:v1.4.5",
         "memory" : 10240,
 - deployment2:
      image: felipempda/different-image:v0.1.1
